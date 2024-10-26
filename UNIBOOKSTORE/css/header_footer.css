@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif; /* Set a default font for the page */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: 1px solid #008CBA; /* Change border color to match the theme */
+    background-color: #A4DEF9; /* Light blue background */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Add padding to header */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.3em; /* Adjusted font size for the heading */
+}
+
+header h1 a {
+    text-decoration: none; /* Remove underline from heading link */
+    color: #003366; /* Dark blue color for the heading link */
+}
+
+header ul {
+    list-style-type: none; /* Remove bullet points from list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for list items */
+}
+
+header ul li {
+    margin: 0 5px; /* Reduced space between list items */
+}
+
+header ul li a {
+    padding: 5px 10px; /* Adjust padding for links */
+    font-size: 1em; /* Adjusted font size for links */
+    display: block; /* Make the entire area clickable */
+    color: #003366; /* Set link color */
+    text-decoration: none; /* Remove underline */
+}
+
+header ul li a:hover {
+    color: #005f8a; /* Change color on hover for better interactivity */
+}
+
+/* Optional: If you want to set a common line height for better alignment */
+header h1,
+header ul li a {
+    line-height: 1.5; /* Set a common line height */
+}
+
+
+/*---------------Footer-------------------------
+/* Styling for the footer */
+footer {
+    background-color: #008CBA; /* Footer background color */
+    color: white; /* Text color in the footer */
+    text-align: center; /* Center align the text */
+    padding: 15px; /* Add padding for spacing */
+    position: relative; /* Positioning for the footer */
+    bottom: 0; /* Align at the bottom of the page */
+    width: 100%; /* Full width for the footer */
+    font-size: 0.9em; /* Slightly smaller font size */
+    border-top: 2px solid #005f8a; /* Top border for distinction */
+}
+
+/* Optional: Responsive design for smaller screens */
+@media (max-width: 600px) {
+    footer {
+        font-size: 0.8em; /* Smaller font size on mobile */
+    }
+}

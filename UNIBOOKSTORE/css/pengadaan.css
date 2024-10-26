@@ -1,0 +1,50 @@
+/* Main styling for the main content area */
+main {
+    width: 80%; /* Set a width for the main section */
+    margin: 20px auto; /* Center the main content */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #f9f9f9; /* Light background for the main content */
+    border-radius: 5px; /* Rounded corners for the main section */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for headings */
+h1 {
+    font-size: 2em; /* Font size for the main heading */
+    margin-bottom: 20px; /* Space below the main heading */
+    color: #003366; /* Dark blue color for headings */
+}
+
+/* Styling for the book needs report table */
+table {
+    width: 100%; /* Full width for the table */
+    border-collapse: collapse; /* Remove gaps between table cells */
+    margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+    padding: 10px; /* Padding inside table cells */
+    border: 1px solid #ccc; /* Border for table cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #008CBA; /* Header background color */
+    color: white; /* Header text color */
+    font-weight: bold; /* Bold text for headers */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row color for better readability */
+}
+
+tr:hover {
+    background-color: #e0f7fa; /* Highlight row on hover */
+}
+
+/* Message styling when no books are found */
+td[colspan='3'] {
+    text-align: center; /* Center text for the message */
+    font-weight: bold; /* Make the message bold */
+    color: #ff0000; /* Red color for emphasis */
+}
