@@ -1,10 +1,6 @@
-Berikut adalah README dalam bahasa Indonesia untuk proyek sistem manajemen toko buku internal yang Anda buat menggunakan PHP dan MySQL:
-
----
-
 # Sistem Manajemen Toko Buku Internal
 
-Ini adalah aplikasi web internal untuk mengelola inventaris toko buku, yang memungkinkan administrator untuk melihat, menambah, mengedit, dan menghapus data buku dan penerbit. Aplikasi ini juga memiliki bagian pengadaan untuk melacak buku yang perlu dipesan ulang.
+Aplikasi web internal untuk mengelola inventaris toko buku, yang memungkinkan administrator untuk melihat, menambah, mengedit, dan menghapus data buku dan penerbit. Aplikasi ini juga memiliki bagian pengadaan untuk melacak buku yang perlu dipesan ulang.
 
 ## Fitur
 
@@ -52,12 +48,12 @@ Sistem ini menggunakan dua tabel utama:
 
 2. **Setup Database**:
     - Buka XAMPP dan jalankan **Apache** serta **MySQL**.
-    - Buka **phpMyAdmin** dan buat database baru bernama `unibookstore`.
+    - Buka **phpMyAdmin** dan buat database baru bernama `data`.
     - Import file `data.sql` (yang disertakan dalam repository ini) untuk membuat tabel dan mengisi data awal.
 
 3. **Konfigurasi Koneksi Database**:
     - Buka file `db.php` dan sesuaikan kredensial database Anda.
-    - Pastikan nama database sesuai dengan `unibookstore` (atau ubah sesuai kebutuhan).
+    - Pastikan nama database sesuai dengan `data` (atau ubah sesuai kebutuhan).
 
 4. **Jalankan Aplikasi**:
     - Tempatkan folder proyek di dalam direktori `htdocs` XAMPP.
